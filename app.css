@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: "figtree", sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -83,5 +84,28 @@ header p {
     font-size: 1rem;
     flex-wrap: wrap;
 }
+
+#professional-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company {
+    width: 70%;
+}
+
+
+#professional-experience h2 {
+    font-size: 2rem;
+    line-height: 5rem;
+}
+
+.jobtitle {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
 
 
