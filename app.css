@@ -84,6 +84,22 @@ header p {
     font-size: 1rem;
     flex-wrap: wrap;
 }
+.skilltype ul {
+    padding-top: 1.5rem;
+}
+
+.skill {
+    border-color: #264653;
+    border: 1px solid;
+    border-radius: 2rem;
+    margin: .2rem;
+    background-image:linear-gradient(45deg, #2a9d8f00, #2a9d8f00);
+    transition: background-image 10s 10s;
+}
+
+.skill:hover{
+    background-image: linear-gradient(45deg, #2a9d8f, #2a9d8f00);
+}
 
 #professional-experience {
     display: flex;
@@ -92,20 +108,57 @@ header p {
 }
 
 .company {
-    width: 70%;
+    width: 75%;
 }
 
-
-#professional-experience h2 {
-    font-size: 2rem;
-    line-height: 5rem;
-}
-
-.jobtitle {
-    font-size: 1.5rem;
-    line-height: 2rem;
+.company p {
     text-align: center;
 }
 
+#professional-experience h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+.jobtitle {
+    font-size: 1.5em;
+    line-height: 2rem;
+    text-align: center;
+    padding: 1rem 0 1.2rem 0;     
+}
 
 
+
+@media (max-width:1024px) {
+    .allskills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2rem;
+    }
+    .skilltype {
+        width: 60%;
+        padding-bottom: 2rem;
+    }
+}
+
+@media (max-width:900px) {
+    h1 {
+        line-height: 1em;
+    }
+    header {
+        text-align: left;
+        padding-left: 2em;
+        padding-bottom: 2rem;
+        padding-right: 2em;
+    }
+}
+
+@media (max-width:450px) {
+    h1{
+        font-size: 6rem;
+    }
+    header p {
+        font-size: 1rem;
+    }
+}
