@@ -183,4 +183,39 @@ hr {
     }
 }
 
+/*CSS for the project section*/
+#pro{
+    display:flex
+}
+#projects {
+    width: 40%;
+    height: stretch;
+    position: sticky;
+    background-color: #e9c46a;
+    padding-left: 2rem;
+}
+
+#projects h1 {
+    font-size: 4rem;
+}
+
+#project-list {
+    font-family: 'space mono', sans-serif;
+}
+
+
+#project-description {
+    height: 100vh;
+    overflow: scroll;
+    padding: 2rem 5rem 0 5rem;
+}
+
+#project-description h2 {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+
+
+
+
 
