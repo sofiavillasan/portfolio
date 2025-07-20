@@ -59,6 +59,12 @@ header p {
     font-family: "Space mono", sans-serif;
 }
 
+hr {
+    width: 90%;
+    border:#264653, solid;
+    border-radius:2rem;
+}
+
 #skills{
     text-align: center;
 }
@@ -176,3 +182,5 @@ header p {
         font-size: 1rem;
     }
 }
+
+
